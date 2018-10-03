@@ -1,0 +1,75 @@
+body {
+    background-image: url("ye.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; /*This is a comment*/
+    background-color: #2C2F33;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+#nav{
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 26px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: #7289DA;
+	color: #2C2F33;
+}
+
+#content {
+    margin-top: 16px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color:rgba(0,0,0,0.35);
+}
+
+table{
+    margin:auto;
+}
+
+#content ul, #content ol{
+    margin: auto;
+    width: 16%;
+    text-align: left;
+}
+
+#resume {
+    margin-top: 16px;
+    width: 68%;
+    text-align: left;
+    padding-bottom: 20px;
+    background-color:rgba(0,0,0,0.35);
+}
+
+#tabimg {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#nav .right {
+    float: right;
+    width: 5%;
+}
